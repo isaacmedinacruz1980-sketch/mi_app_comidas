@@ -4,19 +4,19 @@ from datetime import datetime
 import os
 
 # --- Configuración de la página ---
-st.set_page_config(page_title="Mi negocio de comidas", layout="centered")
+st.set_page_config(page_title="Comidas", layout="centered")
 
 # --- Título y descripción ---
-st.title("🍽️ Mi negocio de comidas")
+st.title("🍽️ Comidas")
 st.subheader("Desayunos, comidas y cenas caseras")
 
 # --- Menú (cambia los precios aquí si quieres) ---
 st.header("📋 Menú del día")
 
 menu = {
-    "🥐 Desayuno (café + tostada o bollería)": 4.50,
-    "🥗 Comida (primer + segundo + postre + bebida)": 9.90,
-    "🍲 Cena menú ligero (crema + pescado o pollo + fruta)": 8.50
+    "🥐 Desayuno (café + tostada o bollería)": 3.50,
+    "🥗 Comida (primer + segundo + postre + bebida)": 5.90,
+    "🍲 Cena menú ligero (crema + pescado o pollo + fruta)": 3.50
 }
 
 for producto, precio in menu.items():
