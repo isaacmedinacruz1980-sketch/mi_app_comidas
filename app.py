@@ -15,7 +15,7 @@ st.header("📋 Menú del día")
 
 menu = {
     "🥐 Desayuno (café + tostada o bollería)": 3.50,
-    "🥗 Comida (primer + segundo + postre + bebida)": 5.90,
+    "🥗 Comida (primer + segundo + postre + bebida)": 10.90,
     "🍲 Cena menú ligero (crema + pescado o pollo + fruta)": 3.50
 }
 
